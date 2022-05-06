@@ -30,7 +30,6 @@ class ContactsViewController: UITableViewController {
         let contacts = contacts[indexPath.row]
         var content = cell.defaultContentConfiguration()
         content.text = categories[indexPath.row]
-        content.secondaryText =
     
      
         cell.contentConfiguration = content
