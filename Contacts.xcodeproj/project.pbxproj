@@ -13,7 +13,7 @@
 		2153B66F2817D4C400DB51AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2153B66E2817D4C400DB51AE /* Assets.xcassets */; };
 		2153B6722817D4C400DB51AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2153B6702817D4C400DB51AE /* LaunchScreen.storyboard */; };
 		2153B67C2817D4E800DB51AE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2153B67B2817D4E800DB51AE /* Model.swift */; };
-		2153B67E2817FA8A00DB51AE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2153B67D2817FA8A00DB51AE /* ContactsViewController.swift */; };
+		215D34B7281934F8009062A6 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D34B6281934F8009062A6 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2153B6712817D4C400DB51AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2153B6732817D4C400DB51AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2153B67B2817D4E800DB51AE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		2153B67D2817FA8A00DB51AE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		215D34B6281934F8009062A6 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				2153B6672817D4C200DB51AE /* SceneDelegate.swift */,
 				2153B67B2817D4E800DB51AE /* Model.swift */,
 				2153B66B2817D4C200DB51AE /* Main.storyboard */,
-				2153B67D2817FA8A00DB51AE /* ContactsViewController.swift */,
+				215D34B6281934F8009062A6 /* ContactsViewController.swift */,
 				2153B66E2817D4C400DB51AE /* Assets.xcassets */,
 				2153B6702817D4C400DB51AE /* LaunchScreen.storyboard */,
 				2153B6732817D4C400DB51AE /* Info.plist */,
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2153B6662817D4C200DB51AE /* AppDelegate.swift in Sources */,
+				215D34B7281934F8009062A6 /* ContactsViewController.swift in Sources */,
 				2153B6682817D4C200DB51AE /* SceneDelegate.swift in Sources */,
 				2153B67C2817D4E800DB51AE /* Model.swift in Sources */,
-				2153B67E2817FA8A00DB51AE /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
